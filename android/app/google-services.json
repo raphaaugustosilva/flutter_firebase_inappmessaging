@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "55674792390",
+    "firebase_url": "https://pocs-ao3.firebaseio.com",
+    "project_id": "pocs-ao3",
+    "storage_bucket": "pocs-ao3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55674792390:android:b7ed42f194fd194e272ac7",
+        "android_client_info": {
+          "package_name": "com.poc.inappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55674792390-spurkb9ki8ning9sh7grrg011q67hfkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD76RUQckusv1EIDfSdNKrld1ZYxf6Kdjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55674792390-spurkb9ki8ning9sh7grrg011q67hfkd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "55674792390-2u9cut44olhmpqgp8t31tiibdm6h1fpb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.poc.inappfirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
