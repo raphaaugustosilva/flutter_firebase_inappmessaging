@@ -1,5 +1,6 @@
-import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
+import 'package:poc_inappfirebase/webview.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_in_app_messaging/firebase_in_app_messaging.dart';
 
 class PrincipalView extends StatefulWidget {
@@ -33,6 +34,9 @@ class _PrincipalViewState extends State<PrincipalView> {
                 inAppInterrompido = !inAppInterrompido;
                 await fiam.setMessagesSuppressed(inAppInterrompido);
                 setState(() {});
+              }),
+              montaCard("Webview", "Abre uma webview", "Abrir", () {
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => MinhaWebView()));
               }),
             ],
           ),
